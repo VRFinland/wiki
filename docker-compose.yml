@@ -5,7 +5,6 @@ services:
     environment:
       - MYSQL_DATABASE=wiki
       - MYSQL_ROOT_PASSWORD=wiki
-
   mediawiki:
     build: ./mediawiki
     ports:
